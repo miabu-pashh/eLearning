@@ -1,0 +1,97 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  border: 1px solid grey;
+  padding: 10px 20px; /* Increase padding for bigger size */
+  font-size: 16px; /* Make font bigger for better readability */
+  width: 80%; /* Increase width */
+  margin: 10px auto; /* Center align and add space around */
+  border-radius: 15px; /* More pronounced rounded corners for a "curly" look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a soft depth effect */
+  display: block; /* Ensure the input takes the full width defined */
+}
+
+.close-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.feedback {
+  border: 1px solid grey;
+  padding: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  border-radius: 5px;
+  background: none; /* Changed from rgb(150, 150, 150) to none */
+}
+
+.close-btn-form {
+  background-color: transparent; /* Keeps the background clear to avoid visual clutter */
+  border: none; /* Removes the default border to make it look more like a UI control */
+  position: absolute; /* Positions the button relative to its nearest positioned ancestor */
+  top: 8px; /* Positions the button towards the top of the container */
+  right: 8px; /* Positions the button towards the right of the container */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+  font-size: 1.5rem; /* Increases the font size for better visibility */
+  color: #666; /* Sets a neutral color that should contrast with most backgrounds */
+  padding: 8px; /* Provides enough padding to ensure the area is clickable */
+  border-radius: 50%; /* Makes the button circular */
+  display: flex; /* Use flex to center the content inside the button */
+  align-items: center; /* Centers the content vertically */
+  justify-content: center; /* Centers the content horizontally */
+  transition: color 0.3s, transform 0.3s; /* Smooth transition for color and transform */
+}
+
+.close-btn-form:hover {
+  color: #f44336; /* Changes color on hover to indicate interactiveness */
+  transform: scale(1.1); /* Slightly increases the size on hover for feedback */
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  text-align: center;
+  border: none;
+  color: white; /* Default text color for buttons */
+  font-size: 16px; /* Standard font size for buttons */
+}
+
+/* Red button specific styles */
+.btn-red {
+  background-color: #f44336; /* Vibrant red color for high visibility */
+}
+
+.btn-red:hover {
+  background-color: #d32f2f; /* Darker shade on hover for interaction feedback */
+}
+
+/* Green button specific styles */
+.btn-green {
+  background-color: #4CAF50; /* Vivid green color for visibility */
+}
+
+.btn-green:hover {
+  background-color: #45A049; /* Darker shade on hover for interaction feedback */
+}
+
+.m1-rem {
+  margin: 1rem; /* Apply a margin of 1rem on all sides */
+}
+.close-btn-form {
+  background-color: transparent; /* Keeps the background clear to avoid visual clutter */
+  border: none; /* Removes the default border to make it look more like a UI control */
+  position: absolute; /* Positions the button relative to its nearest positioned ancestor */
+  top: 8px; /* Positions the button towards the top of the container */
+  right: 8px; /* Positions the button towards the right of the container */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+  font-size: 1.5rem; /* Increases the font size for better visibility */
+  color: #666; /* Sets a neutral color that should contrast with most backgrounds */
+  padding: 8px; /* Provides enough padding to ensure the area is clickable */
+  border-radius: 50%; /* Makes the button circular */
+}

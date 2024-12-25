@@ -1,0 +1,69 @@
+[
+  {
+    "label": "Week1",
+    "course1": 4
+    
+  },
+  {
+    "label": "Week2",
+    "course1": 5
+    
+  },
+  {
+    "label": "Week3",
+    "course1": 4
+    
+  },
+  {
+    "label": "Week4",
+    "course1": 6
+    
+  },
+  {
+    "label": "Week5",
+    "course1": 3,
+    "course2": 4
+    
+  },
+  {
+    "label": "Week6",
+    "course1": 6,
+    "course2": 3
+    
+  },
+  {
+    "label": "Week7",
+    "course1": 7,
+    "course2": 2
+   
+  },
+  {
+    "label": "Week8",
+    
+    "course2": 7,
+    "course3": 2
+  },
+  {
+    "label": "Week9",
+
+    "course2": 5,
+    "course3": 4
+  },
+  {
+    "label": "Week10",
+    
+    "course2": 4,
+    "course3": 3
+  },
+  {
+    "label": "Week11",
+   
+    "course2": 4,
+    "course3": 5
+  },
+  {
+    "label": "Week12",
+    
+    "course3": 8
+  }
+]

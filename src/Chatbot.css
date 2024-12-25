@@ -1,0 +1,50 @@
+/* Chatbot.css */
+
+.chatbot-container {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to change the vertical position */
+    right: 20px; /* Adjust this value to change the horizontal position */
+    z-index: 9999; /* Ensure the chatbot appears above other content */
+  }
+  
+  .chatbot-float {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    
+  }
+  
+  /* Chaticon.css */
+
+.icon {
+    transition: transform 0.2s ease-in-out; /* Add transition for smooth effect */
+  }
+  
+  .chatbot-icon:hover .icon {
+    transform: translateY(-2px); /* Move the icon up slightly when hovered over */
+  }
+
+  .chatbot-icon {
+    position: fixed;
+    bottom: 40px; /* Adjust as needed to control the vertical position */
+    right: 40px; /* Adjust as needed to control the horizontal position */
+    z-index: 999; /* Ensure the icon is above other elements */
+  }
+  
+  .chatbot-icon.hidden {
+    display: none;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10000;
+  }
+
+  
+  .chatbot-content {
+    padding: 5px;
+  }
